@@ -318,7 +318,7 @@ const ChecklistItem = props => {
               </Tbody>
             ) : (
               <React.Fragment>
-                {/* <Box margin="150% 250%">
+                <Box margin="150% 250%">
                   <Spinner
                     thickness="5px"
                     speed="0.65s"
@@ -326,7 +326,7 @@ const ChecklistItem = props => {
                     color="green.500"
                     size="xl"
                   />
-                </Box> */}
+                </Box>
               </React.Fragment>
             )}
           </Table>
